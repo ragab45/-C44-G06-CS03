@@ -8,7 +8,7 @@ namespace Demo_2
         {
             #region Video-1
             //float x= 2.5654831547988f;
-            //double y = 3.5;
+            //double y = 3.5; 
             //decimal z = 4.5m;
             //Console.WriteLine(z);
 
