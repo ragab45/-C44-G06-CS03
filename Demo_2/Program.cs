@@ -41,20 +41,20 @@ namespace Demo_2
             #endregion
 
             #region Video_3 
-            Console.WriteLine("Enter a Name:");
-            String? name = Console.ReadLine();
+            //Console.WriteLine("Enter a Name:");
+            //String? name = Console.ReadLine();
 
-            Console.WriteLine("Enter a Age:");
-            int Age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter a Age:");
+            //int Age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter a Salary:");
-            decimal Salary = Convert.ToDecimal(Console.ReadLine());
+            //Console.WriteLine("Enter a Salary:");
+            //decimal Salary = Convert.ToDecimal(Console.ReadLine());
 
-            Console.Clear();
-            Console.WriteLine("Enter a Date :");
-            Console.WriteLine("Name is :"+ name);
-            Console.WriteLine("Age is :" + Age);
-            Console.WriteLine("Salary is :" + Salary);
+            //Console.Clear();
+            //Console.WriteLine("Enter a Date :");
+            //Console.WriteLine("Name is :"+ name);
+            //Console.WriteLine("Age is :" + Age);
+            //Console.WriteLine("Salary is :" + Salary);
             #endregion
 
             #region Video_4
@@ -72,20 +72,42 @@ namespace Demo_2
             #endregion
             #region Terany Operator [Conditional Operator ?:]
 
-            int X = 10, Y = 5;
-            if (X > Y)
-                Console.WriteLine("X > Y");
-            else
-                Console.WriteLine("X < Y");
+            //int X = 10, Y = 5;
+            //if (X > Y)
+            //    Console.WriteLine("X > Y");
+            //else
+            //    Console.WriteLine("X < Y");
 
-            string message = (X > Y) ? true : false;
+            //string message = (X > Y) ? true : false;
 
-            //string Message = X > Y ? "X > Y" : "X < Y";
+            ////string Message = X > Y ? "X > Y" : "X < Y";
 
-            //Console.WriteLine(Message);
+            ////Console.WriteLine(Message);
 
             #endregion
 
+            #endregion
+
+            #region Vidoe_8 
+            // 1. String Concatenations
+            //message = "Equation : " + X + " + " + Y + " = " + res
+            //Console.WriteLine(message);
+
+            // 2. Composite Formatting
+            //Console.WriteLine("Equation : {0} + {1} = {2}", X, Y,
+
+            // //3. String.Format
+            //message = string.Format("Equation : {0} + {1} = {2}",
+            int Z = 4500;
+            string message = string.Format("0:c", Z); // هذا السطر هو الموجود في الصورة بشكل أوضح
+            //Console.WriteLine(message);
+
+            // 4. String Interpolation
+            //message = $"Equation : {X} + {Y} = {result}";
+            //Console.WriteLine(message);
+
+            //message = @"D:\C44\DemoC#02C44\DemoC#02C44
+            //Console.WriteLine(message);
             #endregion
         }
     }
