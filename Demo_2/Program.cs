@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace Demo_2
 {
@@ -66,9 +67,18 @@ namespace Demo_2
             int[] arr2 = arr1;
             arr2[0] = 100;
 
-            Console.WriteLine("arr1[0]: " + arr1[0]); 
+            Console.WriteLine("arr1[0]: " + arr1[0]);
 
             #endregion
+            #region  Q7
+            //Write C# program that take two string variables and print them as one variable 
+            string first = "Hello";
+            string second = "World";
+            string combined = first + " " + second;
+            Console.WriteLine(combined);
+
+            #endregion
+
         }
     }
 }
