@@ -149,6 +149,24 @@ namespace Demo_2
             #endregion
             #endregion
 
+            #region  Goto
+            switch (value)
+            {
+                case 1000:
+                    Console.WriteLine("Option 01");
+                    break;
+                case 2000:
+                    Console.WriteLine("Option 02");
+                    goto case 1000;
+                //Console.WriteLine();
+                //break;
+                case 3000:
+                    //Console.WriteLine("Option 01");
+                    //Console.WriteLine("Option 02");
+                    Console.WriteLine("Option 03");
+                    goto case 2000;
+                    //break;
+                    #endregion
+            }
         }
-    }
 }
