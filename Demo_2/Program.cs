@@ -14,7 +14,7 @@ namespace Demo_2
             Console.WriteLine("You entered: " + number);
 
             #endregion
-            #region  Q2
+            #region  Q2 
             /*
              2. Convert a string with non-numeric characters to an integer and explain what happens
              */
