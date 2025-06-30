@@ -14,7 +14,7 @@ namespace Demo_2
             Console.WriteLine("You entered: " + number);
 
             #endregion
-            #region  Q2 
+            #region  Q2  
             /*
              2. Convert a string with non-numeric characters to an integer and explain what happens
              */
@@ -23,7 +23,7 @@ namespace Demo_2
             int result = Convert.ToInt32(input);
 
             #endregion
-            #region  Q3
+            #region  Q3 
             //  3. Perform arithmetic operation with floating-point numbers and explain:
             float a = 5.7f;
             float b = 2.3f;
