@@ -100,7 +100,7 @@ namespace Demo_2
             //message = string.Format("Equation : {0} + {1} = {2}",
             int Z = 4500;
             string message = string.Format("0:c", Z); // هذا السطر هو الموجود في الصورة بشكل أوضح
-            //Console.WriteLine(message);
+                                                      //Console.WriteLine(message);
 
             // 4. String Interpolation
             //message = $"Equation : {X} + {Y} = {result}";
@@ -109,6 +109,46 @@ namespace Demo_2
             //message = @"D:\C44\DemoC#02C44\DemoC#02C44
             //Console.WriteLine(message);
             #endregion
+
+            #region Video_9 if condition
+            Console.WriteLine("Please Enter A Month Number Existed In 1st Quarter:");
+            int.TryParse(Console.ReadLine(), out int value);
+
+            if (value == 1)
+            {
+                Console.WriteLine("Hello January");
+            }
+            else if (value == 2)
+            {
+                Console.WriteLine("Hello February");
+            }
+            else if (value == 3)
+            {
+                Console.WriteLine("Hello March");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Month Number");
+            }
+            #region  switch
+            switch (value)
+            {
+                case 1:
+                    Console.WriteLine("Hello January");
+                    break;
+                case 2:
+                    Console.WriteLine("Hello February");
+                    break;
+                case 3:
+                    Console.WriteLine("Hello March");
+                    break;
+                default:
+                    Console.WriteLine("Invalid Month Number");
+                    break;
+            }
+            #endregion
+            #endregion
+
         }
     }
 }
