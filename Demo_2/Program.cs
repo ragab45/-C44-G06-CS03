@@ -41,6 +41,20 @@ namespace Demo_2
             Console.WriteLine("Substring: " + sub);
 
             #endregion
+            #region  Q5
+            /*
+             Write C# program that Assigning one value type 
+            variable to another and modifying the value of one variable
+            and mention what will happen
+             
+             */
+            int x = 10;
+            int y = x;
+            y = 20;
+            Console.WriteLine("x = " + x); // x will remain 10
+            Console.WriteLine("y = " + y); // y is 20
+
+            #endregion
         }
     }
 }
