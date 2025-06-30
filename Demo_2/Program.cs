@@ -37,7 +37,7 @@ namespace Demo_2
              Write C# program that Extract a substring from a given string.
              */
             string text = "Hello, World!";
-            string sub = text.Substring(7, 5);
+            string sub = text.Substring(7, 5); 
             Console.WriteLine("Substring: " + sub);
 
             #endregion
