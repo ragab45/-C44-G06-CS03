@@ -121,6 +121,20 @@ namespace Demo_2
             Console.WriteLine("Temperature status: " + result);
 
             #endregion
+            #region Q11
+
+            Console.Write("Enter day: ");
+            int day = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter month: ");
+            int month = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter year: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            Console.WriteLine($"Today's date: {day} – {month} – {year}");
+
+            #endregion
 
         }
     }
