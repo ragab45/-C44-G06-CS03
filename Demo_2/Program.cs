@@ -108,6 +108,19 @@ namespace Demo_2
             Console.WriteLine("BMI: " + bmi);
 
             #endregion
+            #region Q10
+            /*
+             Write a program that uses the ternary operator to check if the 
+            temperature is too hot, too cold, or just good. Assign the result in a
+            variable then display the result. Assume that below 10 degrees is "Just Cold",
+            above 30 degrees is "Just Hot", and anything else is "Just Good".
+             */
+            int temperature = 15;
+            string result = (temperature < 10) ? "Just Cold" :
+                            (temperature > 30) ? "Just Hot" : "Just Good";
+            Console.WriteLine("Temperature status: " + result);
+
+            #endregion
 
         }
     }
