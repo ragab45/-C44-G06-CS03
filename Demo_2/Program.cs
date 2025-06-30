@@ -135,6 +135,15 @@ namespace Demo_2
             Console.WriteLine($"Today's date: {day} – {month} – {year}");
 
             #endregion
+            #region Answer
+            /*
+               Answer (12)- 06 / 14 / 2024
+               Answer (13)- A value 0 will be assigned to d
+               Answer (14)-  6 1
+               Answer (15)-  7 7
+
+             */
+            #endregion
 
         }
     }
