@@ -79,6 +79,21 @@ namespace Demo_2
 
             #endregion
 
+            #region  Q8
+            /*
+             Write a program that calculates the simple interest given 
+            the principal amount, rate of interest, and time. The formula for simple interest is 
+            Interest = (principal * rate * time ) /100.
+
+             
+             */
+
+            double principal = 1000, rate = 5, time = 2;
+            double interest = (principal * rate * time) / 100;
+            Console.WriteLine("Simple Interest: " + interest);
+
+            #endregion
+
         }
     }
 }
