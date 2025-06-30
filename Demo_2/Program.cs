@@ -56,6 +56,37 @@ namespace Demo_2
             Console.WriteLine("Age is :" + Age);
             Console.WriteLine("Salary is :" + Salary);
             #endregion
+
+            #region Video_4
+            #region Logical Operators [!, && , ||]
+
+            /// Short Circuit
+            //Console.WriteLine(!true);              // False
+            //Console.WriteLine(false && true);     // False
+            //Console.WriteLine(false || true);     // True
+
+            //Console.WriteLine(4 < 5 && 7 < 9);    // True
+            //Console.WriteLine(4 < 5 && 7 > 9);    // False
+            //Console.WriteLine(4 > 5 && 7 < 9);    // False
+
+            #endregion
+            #region Terany Operator [Conditional Operator ?:]
+
+            int X = 10, Y = 5;
+            if (X > Y)
+                Console.WriteLine("X > Y");
+            else
+                Console.WriteLine("X < Y");
+
+            string message = (X > Y) ? true : false;
+
+            //string Message = X > Y ? "X > Y" : "X < Y";
+
+            //Console.WriteLine(Message);
+
+            #endregion
+
+            #endregion
         }
     }
 }
